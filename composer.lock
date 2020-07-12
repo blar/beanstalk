@@ -1,0 +1,234 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9129d1c8ae3261db37514c7531980c81",
+    "packages": [
+        {
+            "name": "blar/comparable",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/blar/Sites/comparable",
+                "reference": "ac46c22e01f4cf1e6367dc291730f885f50cb6bb"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Blar\\Comparable\\": "src/Blar/Comparable/"
+                }
+            },
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Treichel",
+                    "email": "gmblar+github@gmail.com"
+                }
+            ],
+            "description": "Comparable for PHP",
+            "homepage": "https://github.com/blar/comparable/",
+            "keywords": [
+                "comparable",
+                "php"
+            ],
+            "support": {
+                "source": "https://github.com/blar/comparable/",
+                "issues": "https://github.com/blar/comparable/issues",
+                "wiki": "https://github.com/blar/comparable/wiki"
+            }
+        },
+        {
+            "name": "blar/curl",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/blar/Sites/curl",
+                "reference": "49662ebed4491181072ff227873775ae7cd07fc8"
+            },
+            "require": {
+                "blar/iterators": "dev-master",
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Blar\\Curl\\": "src/Blar/Curl/"
+                }
+            }
+        },
+        {
+            "name": "blar/http",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/blar/Sites/http",
+                "reference": "d20c326e67273fbeffa9374445366767f46c7223"
+            },
+            "require": {
+                "blar/curl": "dev-master",
+                "blar/memcache": "dev-master",
+                "blar/streams": "dev-master",
+                "blar/strings": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Blar\\Http\\": "src/Blar/Http/"
+                }
+            }
+        },
+        {
+            "name": "blar/iterators",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/blar/Sites/iterators",
+                "reference": "3984c7922e60aaad7988adbed62815e2be626dec"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Blar\\Iterators\\": "src/Blar/Iterators/"
+                }
+            }
+        },
+        {
+            "name": "blar/memcache",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/blar/Sites/memcache",
+                "reference": "1581afa6c727a4f923bb08260d034958274c6f7b"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Blar\\Memcache\\": "src/Blar/Memcache/"
+                }
+            }
+        },
+        {
+            "name": "blar/queue",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/blar/Sites/queue",
+                "reference": "b3a64695eabaa362451fa5d71c5611809a78c23a"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Blar\\Queue\\": "src/Blar/Queue/"
+                }
+            }
+        },
+        {
+            "name": "blar/sockets",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/blar/Sites/sockets",
+                "reference": "59b3886172f33c04bde17f51fb5cbb0eb17ba412"
+            },
+            "require": {
+                "blar/comparable": "dev-master"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Blar\\Sockets\\": "src/Blar/Sockets/"
+                }
+            },
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Treichel",
+                    "email": "gmblar+github@gmail.com"
+                }
+            ],
+            "description": "Sockets for PHP",
+            "homepage": "https://github.com/blar/sockets/",
+            "keywords": [
+                "php",
+                "sockets"
+            ],
+            "support": {
+                "source": "https://github.com/blar/sockets/",
+                "issues": "https://github.com/blar/sockets/issues",
+                "wiki": "https://github.com/blar/sockets/wiki"
+            }
+        },
+        {
+            "name": "blar/streams",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/blar/Sites/streams",
+                "reference": "9d67186d334b0d763125368bcc89f74bee8e0646"
+            },
+            "require": {
+                "blar/sockets": "dev-master",
+                "ext-sockets": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Blar\\Streams\\": "src/Blar/Streams/"
+                }
+            },
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "description": "Streams",
+            "support": {
+                "source": "https://github.com/blar/streams/",
+                "issues": "https://github.com/blar/streams/issues",
+                "wiki": "https://github.com/blar/streams/wiki"
+            }
+        },
+        {
+            "name": "blar/strings",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/Users/blar/Sites/strings",
+                "reference": "91287ec4cbc29c966e91c3324345ba7eb7d238e2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Blar\\Strings\\": "src/Blar/Strings/"
+                }
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "blar/streams": 20,
+        "blar/sockets": 20,
+        "blar/http": 20,
+        "blar/iterators": 20,
+        "blar/queue": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
+    "platform-dev": []
+}

@@ -1,0 +1,27 @@
+{
+    "name": "blar/beanstalk",
+    "description": "Beanstalk client",
+    "type": "library",
+    "license": "LGPL-3.0+",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/blar/beanstalk/",
+        "issues": "https://github.com/blar/beanstalk/issues",
+        "wiki": "https://github.com/blar/beanstalk/wiki"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blar\\Beanstalk\\": "src/Blar/Beanstalk/"
+        }
+    },
+    "require": {
+        "blar/streams": "dev-master",
+        "blar/sockets": "dev-master",
+	    "ext-json": "*",
+	    "ext-pdo": "*",
+        "blar/http": "dev-master",
+        "blar/iterators": "dev-master",
+        "blar/queue": "dev-master"
+    }
+}
